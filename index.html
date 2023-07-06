@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drawer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controlpanel">
+        <input type="checkbox" id="rainbow" autocomplete="off">
+        <label for="rainbow">rainbow</label>
+        <input type="color" id="color" autocomplete="off">
+        <label for="color">color</label>
+        <button id="pipette">pipette</button>
+        <input type="range" id="size" autocomplete="off" step="1" max="30" min="1" value="12">
+        <label for="size">brush size</label>
+        <button id="clear">clear canvas</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
